@@ -9,6 +9,7 @@ int main() {
         cin>>players>>card;
         int answer=0;
         vector <int> which_player(players,0);
+        
         while(card>0){
             for(int i=0;i<players && card>0;i++){
                 which_player[i]=which_player[i]+card;
